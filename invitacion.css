@@ -238,6 +238,7 @@ html{
     font-family: 'Montserrat Alternates', sans-serif; /* Aplica la fuente Montserrat Alternates */
     font-weight: 300;
     font-size: 13px;
+    z-index: 1;
 }
 .cont2{
     flex: 0.8;
