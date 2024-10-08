@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const formData = new URLSearchParams();
         formData.append("entry.851951850",document.getElementById("nombre").value);
         formData.append("entry.512626343","si");
+        // formData.append("entry.512626343","no");
         fetch("https://docs.google.com/forms/d/e/1FAIpQLSekp6A836wLEbD7Jj6WoN_Ntabd64vqzL8X10DCnh11D9d83g/formResponse",{
             method: "POST",
             body:formData,
